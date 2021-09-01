@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    height: 800px;
+}
+
+.box1{
+    background-color: black;
+    height: 185px;
+    width: 185px;
+    color: #fff;
+}
+.box2{
+    background-color: rgb(0, 255, 8);
+    height: 185px;
+    width: 185px;
+    position: fixed;
+    top: 187px;
+    left: 500px;
+    color: #fff;
+}
+.box3{
+    background-color: rgb(255, 0, 0);
+    height: 185px;
+    width: 185px;
+    position: absolute;
+    left: 87%;
+    top: 0;
+    color: #fff;
+}

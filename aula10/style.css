@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url(https://www.bristolhoteis.com.br/wp-content/uploads/2019/09/o-que-fazer-em-fortaleza-1170x650.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  border: solid 16px rgb(255, 217, 0);
+  background-size: 100%;
+  height: 100vh;
+  background-color: #00b2ff;
+}
+
+.banners-titles {
+  padding: 158px;
+  display: inline-block;
+  padding: 119px 8px;
+  margin-top: 16px;
+}
+
+.divisor {
+  width: 123px;
+  height: 2px;
+  display: inline-flex;
+  background-color: #fff8f8;
+  position: relative;
+  margin: 47px 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.939);
+  font-size: 78px;
+  margin: 8px 8px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.939);
+  font-size: 33px;
+  margin: 8px 8px;
+}
+
+.text-content{
+}
