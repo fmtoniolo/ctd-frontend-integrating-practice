@@ -9,7 +9,141 @@ html {
   padding: 0;
 }
 
-.banner {
+.hero-header {
+  display: flex;
+  background-image: url(https://blog.queroumnegocio.com.br/wp-content/uploads/2020/02/bom-negocio-em-fortaleza-ce-20200210142436-1.jpg-1-1024x683.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 357px;
+}
+
+.hero-header h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 48px;
+  padding: 8px 36px 8px 36px;
+}
+
+.float-card {
+  position: absolute;
+  width: 288px;
+  height: 236px;
+  left: 28px;
+  top: 275px;
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.float-card p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 25px 39px;
+}
+
+.main-content {
+  margin-top: 183px;
+}
+
+.divisor {
+  width: 100%;
+  height: 2px;
+  background-color: #f4f4f4;
+  margin-bottom: 47px;
+}
+
+.main-content h1 {
+  color: #f49339;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 8px 36px 8px 36px;
+}
+
+.beache-section {
+  width: 100%;
+}
+
+.beache-section img {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 288px;
+  height: 236px;
+  margin-left: 31px;
+}
+
+.beache-section p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 8px 36px 8px 36px;
+}
+
+.curious-section {
+  width: 100%;
+}
+
+.curious-section h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #4e4e4e;
+  padding: 8px 36px 8px 36px;
+}
+
+.curious-section img {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 288px;
+  height: 236px;
+  margin-left: 31px;
+}
+
+.curious-section p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 8px 36px 8px 36px;
+}
+
+iframe {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 288px;
+  height: 236px;
+  margin-left: 31px;
+}
+
+footer {
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #f49339;
+  color: #fff;
+  height: 68px;
+  margin-top: 36px;
+  padding-top: 16px;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+/* .banner {
   background-image: url(https://www.bristolhoteis.com.br/wp-content/uploads/2019/09/o-que-fazer-em-fortaleza-1170x650.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -52,4 +186,7 @@ h3 {
 }
 
 .text-content{
-}
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 217, 0);
+  font-size: 38px;
+} */
