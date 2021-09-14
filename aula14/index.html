@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário cadastro de cliente</h1>
+    <form action="">
+
+        <h2>Nome completo <span>*</span></h2>
+        <div class="informacoes-cliente">
+            
+            <div class="input-primeiro-nome">
+                <input required value="" type="text" id="Primeiro">
+                <label for="Nome">Primeiro nome</label>
+            </div>
+
+            <div>
+                <input value="" type="text" id="Segundo">
+                <label for="Sobrenome">Segundo nome</label>
+            </div>
+        </div>
+
+        <h2>CPF <span>*</span></h2>
+        <div class="informacoes-cliente">
+            
+            <input value="cpf" type="number" id="cpf">
+        </div>
+
+        <h2>E-mail<span>*</span></h2>
+        <div class="informacoes-cliente">
+            
+            <input placeholder="ex: email@email.com" type="email" id="email" value="">
+        </div>
+
+        <h2>Endereço <span>*</span></h2>
+
+        <input type="text">
+        <label for="rua">Rua</label>
+
+        <input type="text">
+        <label for="complemento">Complemento</label>
+
+        <select name="" id="paises">
+            <option value="">
+                Canadá
+            </option>
+            <option value="">
+                Brazil
+            </option>
+            <option value="">
+                EUA
+            </option>
+        </select>
+        <label for="complemento">Cidade</label>
+    
+            <input type="number">
+            <label for="complemento">DDD</label>
+    
+            <input type="number">
+            <label for="complemento">Telefone</label>
+    
+            <button type="submit">Enviar dados</button>
+        
+    </form>
+</body>
+</html>
