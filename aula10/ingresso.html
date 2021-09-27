@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Ingressos para o Beach Park 🐳 com desconto especial!</title>
+</head>
+<body>
+    <main class="form-content">
+        <div class="form-container">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Logotipo_do_Beach_Park.png" alt="beach park logo"><h1>Garanta seu ingresso para o maior parque aquatico da america latina com um desconto especial!</h1>
+            <form>
+                <div class="form-dados-pessoa">
+                    <h3>Seus dados 👨</h3>
+                    <div>
+                        <label for="fnome">Nome: </label>
+                        <input maxlength="100" type="text" id="fnome" name="fnome">
+                        <label for="femail">E-mail: </label>
+                        <input type="email" id="femail" name="femail">
+                    </div>
+                    <div>
+                        <label for="fwhatsapp">WhatsApp: </label>
+                        <input type="" id="fwhatsapp" name="fwhatsapp">
+                        <label for="fdatanasc">Data de nascimento: </label>
+                        <input type="date" id="fdatanasc" name="fdatanasc">
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3>Maior de 18 anos? 🔞</h3>
+                    <input type="radio" name="fmaiors" id="fmaiors" value="yes">
+                    <label for="fmaiors">Sim, sou maior de 18 anos</label>
+        
+                    <input type="radio" name="fmaiorn" id="fmaiorm" value="no">
+                    <label for="fmaiorn">Não, tenho menos de 18 anos</label>
+                </div>
+
+                <div>
+                    <h3>Escolha outro ponto de interesse na cidade 👀</h3>
+                    <label for="finteresse">Também tenho interesse em </label>
+                    <select name="finteresse" id="finteresse">
+                        <option value="mercado central">Mercado Central</option>
+                        <option value="Jericoacoara">Praia de Jericoacoara</option>
+                        <option value="parque do cocó">Parque do Cocó</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <h3>Perfil de interesse ☀️</h3>
+                    <label for="fturista">Turista</label>
+                    <input type="checkbox" name="fturista" id="fturista" value="turista">
+        
+                    <label for="fturista">Residente</label>
+                    <input type="checkbox" name="fresidente" id="fresidente" value="residente">
+        
+                    <label for="fturista">Estudante</label>
+                    <input type="checkbox" name="festudante" id="fresidente" value="estudante">
+                </div>
+
+                <div class="button-bar">
+                    <button type="button">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
